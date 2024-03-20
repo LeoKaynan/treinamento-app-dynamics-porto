@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Supercar-Trader">
+    <!-- Specify a JDBC datasource for oracle -->
+    <Resource name="jdbc/supercars" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="root" 
+              password="password"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/supercars?useSSL=false&amp;verifyServerCertificate=false"
+              useSSL="false"
+              maxActive="10" 
+              maxIdle="4" />
+</Context>
